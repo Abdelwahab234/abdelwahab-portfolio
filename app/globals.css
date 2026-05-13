@@ -1,0 +1,447 @@
+
+*{ 
+    padding: 0;
+margin:0;
+border:none ; 
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 2s ease all;
+    scroll-behavior: smooth;
+}
+button:hover{ 
+    cursor: pointer;
+}
+body > nav{ 
+  
+    height:8vh;
+    width: 100%;
+    position: fixed;
+    
+}
+.nav > ul  { 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 8vh;
+    border-bottom: solid black 1px;
+}
+a{
+    color : black;
+    text-decoration: none;
+}
+.nav > ul  > li > button , button { 
+    background-color : black ;
+    color : #fff ; 
+    padding: 5px 30px ; 
+    font-size: 14px;
+    border : none ; 
+    border-radius: 15px;
+
+}
+.intro { 
+    height : 100vh; 
+    width:100%; 
+
+    background : rgba(255, 0, 0, 0) ;
+    padding:10px ; 
+    display: flex  ;
+    justify-content: center;
+    align-content: center;
+    align-items: center ;
+    background-image:url("./faded_gallery-7stSlxNAmfc-unsplash\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+} 
+.intro > div {  
+    background-color : rgba(255, 255, 255, 0.703)  ;
+    width:80%;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+    align-content: center;
+    align-items: center ;
+    gap:20px;
+    border-radius : 20px ; 
+
+    box-shadow: 0px 0px 59px 20px rgba(209, 208, 208, 0.438) ;
+    padding: 100px;
+    transition : 1s ease-in-out box-shadow ;
+       transition: background-color 0.5s ease , box-shadow 1s ease;
+}
+.intro>div:hover{ 
+   color :rgb(255, 255, 255);
+
+    box-shadow: 0px 0px 0px 100vw rgba(209, 208, 208, 0.626) ;
+    backdrop-filter:blur(0px) ;
+    background-color: #ffffff0c;
+    
+   
+}
+.intro > div > h2 { 
+    font-size: 5rem ;
+    font-weight: 100;
+    
+}
+.seperated{ 
+    background-color:rgb(255, 255, 255) ;
+    height :100px ; 
+
+}
+.bk{ 
+    background-color: rgba(255, 0, 0, 0) ;
+    height:180vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.about{ 
+    background : rgba(0, 0, 255, 0); 
+    width:50%;
+    height:100%;
+ 
+      padding:100px;
+    display: flex;
+    flex-direction: column;
+    gap : 20px ;
+    justify-content: space-around;
+}
+.about > h2{ 
+    font-weight:lighter;
+    font-size: 5rem;
+}
+.about > p { 
+    background : rgba(255, 255, 0, 0) ;
+    width:95%;
+    line-height: 40px;
+    height: 100%;
+    
+    
+    
+}
+.skills > h2{ 
+    font-weight:lighter;
+    font-size: 5rem;
+}
+.skills
+{ 
+    background-color:rgba(255, 192, 203, 0);
+    width:50%;
+    height:100%;
+    padding:100px;
+    display: flex;
+    flex-direction: column;
+    gap : 20px ;
+    justify-content: space-around;
+}
+.skills > div {
+    background-color:rgb(130, 0, 166);
+    height : 20px;
+}
+div.c  {
+    width:100%;
+}
+div.python{ 
+    width:100%;
+}
+div.typescript{ 
+    width:80%;
+}
+div.javascript{ 
+    width:90%;
+}
+div.java{ 
+    width:60%;
+
+}
+div.sqlite{ 
+    width:95%;
+
+}
+div.sqlserver{ 
+    width:90%;
+
+}
+
+.sepbackground{ 
+    height:120px; 
+    background-image: url("./faded_gallery-7stSlxNAmfc-unsplash\ \(1\).jpg");
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.sepbackground > h2 { 
+    color : #fff;
+    font-weight: 100;
+    font-size:4rem ;
+
+}
+.contact { 
+    padding:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height:120vh;
+    background-color: rgba(255, 0, 0, 0) ;
+
+}
+.contact > .inputs , .contact > .explain { 
+    height : 100%; 
+    width:50%;
+    display: flex ; 
+    flex-direction: column;
+    padding:50px;
+   
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+.contact > .inputs > input{ 
+    border : none;
+    border-radius: 0px;
+    outline: none;
+    padding:8px 20px;
+    border-bottom: black solid 2px ;
+    width:100%;
+    background-color: #ffffff00;
+}
+.contact > .inputs > label{ 
+    font-size :1.5rem;
+    font-weight: 100;
+}
+.description{ 
+    height:200px;
+    background-color:rgba(228, 228, 228, 0.371);
+}
+.contact > .explain > p{ 
+        line-height: 40px;
+        width:70%
+ }
+ .contact > .explain > h2 {
+    font-weight: 100;
+    font-size: 3rem;
+
+ }
+ 
+ @media (width < 1010px) {
+    .bk{
+
+        flex-direction: column;
+
+        height: fit-content;
+
+    }
+    .about > p { 
+
+        width  :100%;
+
+         line-height: 20px;
+         
+    }
+    .about  ,    .skills , .contact> .explain ,.contact> .inputs{ 
+        width : 100%;
+    }
+    .skills { 
+        width : 100%;
+    }
+    .contact{ 
+        flex-direction: column;
+    }
+    .contact > .explain > p{ 
+      line-height: 20px;
+    }
+    .intro > div>h2 { 
+        font-size: 3rem;
+    }
+     .intro > div>p{ 
+        width:80%;
+
+     }
+
+     *{ 
+        width:100%; 
+     }
+
+     .intro > div {  
+
+    background-color : rgba(255, 255, 255, 0.703)  ;
+
+    width:60%;
+
+    height:60%;
+
+    display: flex;
+
+    flex-direction: column;
+
+      justify-content: center;
+
+    align-content: center;
+
+    align-items: center ;
+
+    gap:20px;
+
+    border-radius : 20px ; 
+
+    box-shadow: 0px 0px 59px 20px rgba(209, 208, 208, 0.438) ;
+
+    padding: 100px;
+
+    transition : 1s ease-in-out box-shadow ;
+
+       transition: background-color 0.5s ease , box-shadow 1s ease;
+
+}
+
+
+ }
+
+ *{ 
+    overflow-x: hidden;
+ }
+ @media (width<1250px ) {
+    .intro>div{
+        width:70%;
+    }  
+ }
+ @media (width<510px ) {
+     .intro>div{
+         width:30%;
+        }  
+    }
+    .intro>div{ 
+        margin-top: 50px;
+    }
+    
+    @media(width < 1010){ 
+        .skills{ 
+            width:50%;
+        }
+        .sepbackground{ 
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+        .sepbackground h2 {
+            
+            text-align: center;
+        }
+        .contact > .inputs{ 
+    
+            
+          padding: 0;
+            
+        }
+        .contact > .inputs > input{ 
+            
+            width:70%
+            
+            
+        }
+        .contact{ 
+            padding: 10px;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            align-content: flex-start;
+            
+            width: 100%  ;
+        }
+        .about > p { 
+            width:70%;
+            
+
+
+        }
+        .about { 
+         
+                justify-content: center ;
+                align-items: center;
+
+        }
+        .about > h2 { 
+            text-align: center;
+        }
+        .explain > p{ 
+            width:70%;
+        }
+        .contact > .inputs > label{ 
+            height: 100%;
+            text-align: center;
+
+        }
+        /* nav */
+        .nav > ul  button  , .nav .mode{ 
+        margin-left: 10px;
+        }
+        .nav{ 
+            width: 100%;
+          padding :5px;
+        }
+        nav{
+            background-color: #fff;
+        }
+    }
+    @media (width<885px ) {
+       .intro>div{
+           width:50%;
+           
+       }  
+             .contact > .inputs > input{ 
+         
+           width:60%
+      
+               
+           }
+
+    }
+    @media (width<550px ) {
+    .explain > h2 { 
+        font-size: 3rem;
+        text-align: center;
+    }
+    .explain > p { 
+ 
+        width: 100%;
+        text-align: center;
+        width:66%
+    }
+    .contact{ 
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    #intro > div{ 
+        padding:80px;
+        
+ 
+        width: 50%;
+    }
+       #intro > div > h2{ 
+        font-size: 2rem;
+       }
+        #intro{ 
+            padding: 0;
+        }
+        .sepbackground>h2{ 
+            font-size: 3rem;
+        }
+    }
