@@ -15,7 +15,7 @@ What sets me apart is my ability to combine creative design with efficient softw
 </p>
 
         </div>
-
+ {/* cscs */}
 
         <div className="skills" id="skills">
             <h2>Skills</h2>
