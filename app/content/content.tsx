@@ -67,6 +67,11 @@ window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
         >
           Send
         </button>
+
+        <div className="social-links" style={{ display: 'flex', gap: '20px', marginTop: '20px' }}>
+          <a href="https://github.com/Abdelwahab234" target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: '#b432ff' }}>GitHub</a>
+          <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: '#b432ff' }}>LinkedIn</a>
+        </div>
       </div>
 
     </section>

@@ -1,3 +1,52 @@
+import GlowingNode from "../components/GlowingNode";
+import { 
+  SiCplusplus, SiC, SiPython, SiJavascript, SiTypescript, SiPhp,
+  SiNodedotjs, SiNestjs, SiExpress, SiLaravel, SiGraphql, SiSocketdotio,
+  SiDocker, SiPostgresql, SiSqlite, SiPug,
+  SiReact, SiNextdotjs, SiCss, SiTailwindcss, SiGit, SiGithub, SiTelegram
+} from 'react-icons/si';
+import { FaServer, FaCogs, FaBug, FaVial, FaUsers, FaLightbulb, FaClock, FaComments, FaDatabase, FaShieldAlt } from 'react-icons/fa';
+
+const iconMap: Record<string, React.ReactNode> = {
+  'C++': <SiCplusplus color="#00599C" />,
+  'C': <SiC color="#A8B9CC" />,
+  'Python': <SiPython color="#3776AB" />,
+  'JavaScript': <SiJavascript color="#F7DF1E" />,
+  'TypeScript': <SiTypescript color="#3178C6" />,
+  'PHP': <SiPhp color="#777BB4" />,
+
+  'Node.js': <SiNodedotjs color="#339933" />,
+  'NestJS': <SiNestjs color="#E0234E" />,
+  'Express': <SiExpress color="#ffffff" />,
+  'Laravel': <SiLaravel color="#FF2D20" />,
+  'MVC / MVP': <FaCogs color="#A8B9CC" />,
+  'PMS Systems': <FaServer color="#A8B9CC" />,
+  'GraphQL': <SiGraphql color="#E10098" />,
+  'Socket.IO': <SiSocketdotio color="#ffffff" />,
+  'Docker': <SiDocker color="#2496ED" />,
+  'PostgreSQL': <SiPostgresql color="#4169E1" />,
+  'SQL Server': <FaDatabase color="#CC292B" />,
+  'SQLite': <SiSqlite color="#003B57" />,
+  'PUG': <SiPug color="#A86454" />,
+  'EJS': <SiJavascript color="#B4CA65" />,
+  'Git': <SiGit color="#F05032" />,
+  'GitHub': <SiGithub color="#ffffff" />,
+
+  'React.js': <SiReact color="#61DAFB" />,
+  'Next.js': <SiNextdotjs color="#ffffff" />,
+  'CSS': <SiCss color="#1572B6" />,
+  'Tailwind CSS': <SiTailwindcss color="#06B6D4" />,
+
+  'Teamwork': <FaUsers color="#A8B9CC" />,
+  'Problem Solving': <FaLightbulb color="#FFD700" />,
+  'Time Management': <FaClock color="#A8B9CC" />,
+  'Communication': <FaComments color="#A8B9CC" />,
+  'Data Analytics & Debugging': <FaBug color="#A8B9CC" />,
+  'Telegram Bots': <SiTelegram color="#26A5E4" />,
+  'Testing': <FaVial color="#A8B9CC" />,
+
+  'Bug Bounty': <FaShieldAlt color="#FF4500" />
+};
 
 export default function PK(){ 
   return (
@@ -7,83 +56,46 @@ export default function PK(){
 
         <div className="about">
             <h2>About Me</h2>
-            <p>I am a passionate software engineer with a strong interest in technology and software development. My journey in programming started at a young age and has continued through my academic pursuit of a Computer Science degree, along with participation in various real-world projects and tech events.
-
-I have solid experience in developing web applications, particularly in Back-End development using Node.js, and I also have a growing interest in data analytics. I’ve worked on practical projects for organizations, been selected for the ALX Software Engineering program, and participated in major tech events such as the Google Hackathon, among many others.
-
-What sets me apart is my ability to combine creative design with efficient software solutions, with a strong focus on continuous learning and staying up to date with the latest technologies.
-</p>
-
+            <p>Software Engineer focused on building fast, scalable, and real-time applications. I help businesses and startups turn ideas into high-performance systems using modern technologies. Build scalable backend systems using Node.js, NestJS, and Express. Develop real-time features such as chat, notifications, and live updates using WebSockets and Socket.IO. Design efficient APIs with GraphQL and REST to improve performance and reduce server load. Deliver production-ready applications using Docker for smooth deployment. Work with relational databases including PostgreSQL and SQL Server with optimized queries. Build modern and responsive user interfaces using React, Next.js, and Tailwind CSS. I focus on delivering solutions that are scalable, efficient, and ready for real-world use.</p>
         </div>
- {/* cscs */}
 
         <div className="skills" id="skills">
             <h2>Skills</h2>
+            
             <h3>Programming</h3>
-            <label htmlFor="">C++</label>
-            <div data-aos="fade-right" className="cpp"></div>
-            <label htmlFor="">C</label>
-            <div data-aos="fade-right" className="c"></div>
-            <label htmlFor="">Python</label>
-            <div data-aos="fade-right" className="python"></div>
-            <label htmlFor="">JavaScript</label>
-            <div data-aos="fade-right" className="javascript"></div>
-            <label htmlFor="">TypeScript</label>
-            <div data-aos="fade-right" className="typescript"></div>
-            <label htmlFor="">PHP</label>
-            <div data-aos="fade-right" className="php"></div>
-            <h3>Back-End</h3>
-            <label htmlFor="">Node.js</label>
-            <div data-aos="fade-right" className="nodejs"></div>
-            <label htmlFor="">NestJS</label>
-            <div data-aos="fade-right" className="nestjs"></div>
-            <label htmlFor="">Express</label>
-            <div data-aos="fade-right" className="express"></div>
-            <label htmlFor="">GraphQL</label>
-            <div data-aos="fade-right" className="graphql"></div>
-            <label htmlFor="">Socket.IO</label>
-            <div data-aos="fade-right" className="socketio"></div>
-            <label htmlFor="">Docker</label>
-            <div data-aos="fade-right" className="docker"></div>
-            <label htmlFor="">PostgreSQL</label>
-            <div data-aos="fade-right" className="postgresql"></div>
-            <label htmlFor="">SQL Server</label>
-            <div data-aos="fade-right" className="sqlserver"></div>
-            <label htmlFor="">SQLite</label>
-            <div data-aos="fade-right" className="sqlite"></div>
-            <label htmlFor="">PUG</label>
-            <div data-aos="fade-right" className="pug"></div>
-            <label htmlFor="">EJS</label>
-            <div data-aos="fade-right" className="ejs"></div>
-            <label htmlFor="">Git</label>
-            <div data-aos="fade-right" className="git"></div>
-            <label htmlFor="">GitHub</label>
-            <div data-aos="fade-right" className="github"></div>
-            <h3>Front-End</h3>
-            <label htmlFor="">React.js</label>
-            <div data-aos="fade-right" className="react"></div>
-            <label htmlFor="">Next.js</label>
-            <div data-aos="fade-right" className="nextjs"></div>
-            <label htmlFor="">CSS</label>
-            <div data-aos="fade-right" className="css"></div>
-            <label htmlFor="">Tailwind CSS</label>
-            <div data-aos="fade-right" className="tailwind"></div>
-            <h3>Soft Skills</h3>
-            <label htmlFor="">Teamwork</label>
-            <div data-aos="fade-right" className="teamwork"></div>
-            <label htmlFor="">Problem Solving</label>
-            <div data-aos="fade-right" className="problemsolving"></div>
-            <label htmlFor="">Time Management</label>
-            <div data-aos="fade-right" className="timemanagement"></div>
-            <label htmlFor="">Communication</label>
-            <div data-aos="fade-right" className="communication"></div>
-            <h3>Other</h3>
-            <label htmlFor="">Data Analytics & Debugging</label>
-            <div data-aos="fade-right" className="dataanalytics"></div>
-            <label htmlFor="">Telegram Bots</label>
-            <div data-aos="fade-right" className="telegrambots"></div>
-            <label htmlFor="">Testing</label>
-            <div data-aos="fade-right" className="testing"></div>
+            <div className="skills-grid">
+                {['C++', 'C', 'Python', 'JavaScript', 'TypeScript', 'PHP'].map((skill, i) => (
+                    <GlowingNode key={skill} skill={skill} delay={i * 50} icon={iconMap[skill]} />
+                ))}
+            </div>
+
+            <h3 style={{marginTop: '20px'}}>Back-End</h3>
+            <div className="skills-grid">
+                {['Node.js', 'NestJS', 'Express', 'Laravel', 'MVC / MVP', 'PMS Systems', 'GraphQL', 'Socket.IO', 'Docker', 'PostgreSQL', 'SQL Server', 'SQLite', 'PUG', 'EJS', 'Git', 'GitHub'].map((skill, i) => (
+                    <GlowingNode key={skill} skill={skill} delay={i * 50} icon={iconMap[skill]} />
+                ))}
+            </div>
+
+            <h3 style={{marginTop: '20px'}}>Front-End</h3>
+            <div className="skills-grid">
+                {['React.js', 'Next.js', 'CSS', 'Tailwind CSS'].map((skill, i) => (
+                    <GlowingNode key={skill} skill={skill} delay={i * 50} icon={iconMap[skill]} />
+                ))}
+            </div>
+
+            <h3 style={{marginTop: '20px'}}>Cyber Security</h3>
+            <div className="skills-grid">
+                {['Bug Bounty'].map((skill, i) => (
+                    <GlowingNode key={skill} skill={skill} delay={i * 50} icon={iconMap[skill]} />
+                ))}
+            </div>
+
+            <h3 style={{marginTop: '20px'}}>Soft Skills & Other</h3>
+            <div className="skills-grid">
+                {['Teamwork', 'Problem Solving', 'Time Management', 'Communication', 'Data Analytics & Debugging', 'Telegram Bots', 'Testing'].map((skill, i) => (
+                    <GlowingNode key={skill} skill={skill} delay={i * 50} icon={iconMap[skill]} />
+                ))}
+            </div>
         </div>    
         
 

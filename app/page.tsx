@@ -3,6 +3,8 @@
 import NAV from "./nav/nav";
 import INTRO from "./intro/intro";
 import PK from "./pk/pk";
+import Experience from "./experience/Experience";
+import Certificates from "./certificates/Certificates";
 import CONTENT from "./content/content";
 import PJS from "./projects/page";
 import { main } from "./nav/script";
@@ -31,6 +33,10 @@ export default function Home() {
         <PK />
       </div>
       
+      <Experience />
+      
+      <Certificates />
+
       <PJS />
 
       <div data-aos="fade-in" className="sepbackground">

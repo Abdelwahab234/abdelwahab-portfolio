@@ -20,11 +20,13 @@ function setmode(mode:any ,navbar:any , seperated:any , h2skills:any , navbarbut
             for(let i = 0 ; i<labels.length ; i++)labels[i].style.color =colormode;////
             for(let i = 0 ; i<allabout.length ; i++)allabout[i].style.color =colormode;////
             for(let i = 0 ; i<inputslabels.length ; i++)inputslabels[i].style.color =colormode;////
-            for(let i = 0 ; i<inputslabels.length ; i++)inputs[i].style.color =colormode;////
-            for(let i = 0 ; i<inputslabels.length ; i++)inputs[i].style.borderBottom = `${colormode} 2px solid `;///
+            for(let i = 0 ; i<inputs.length ; i++)inputs[i].style.color =colormode;////
+            for(let i = 0 ; i<inputs.length ; i++)inputs[i].style.borderBottom = `${colormode} 2px solid `;///
 
             for(let i = 0 ; i<explain.length ; i++)explain[i].style.color =colormode;////
 
+            let newSections = document.querySelectorAll(".experience-section *, .certificates-section *, .skills h3");
+            for(let i = 0 ; i<newSections.length ; i++) (newSections[i] as HTMLElement).style.color = colormode;
             
             return mode
         }
@@ -58,10 +60,11 @@ var        inputs  :any = document.querySelectorAll(".inputs input");
 
         console.log(mode, navbarbuttons.length);
         
-
         // mode change 
-        localStorage.setItem("mode" , "light");
-
+        if (!localStorage.getItem("mode")) {
+            localStorage.setItem("mode", "light");
+        }
+        setmode(localStorage.getItem("mode") || "light", navbar, seperated, h2skills, navbarbuttons, labels, allabout, inputslabels, inputs, explain);
         mode.onclick = ()=>{ 
             
           localStorage.setItem("mode",setmode(localStorage.getItem("mode") == "light" ? "night" : "light" , navbar , seperated ,h2skills , navbarbuttons ,labels , allabout ,inputslabels , inputs ,explain));
