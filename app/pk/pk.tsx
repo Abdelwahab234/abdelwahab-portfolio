@@ -21,69 +21,69 @@ What sets me apart is my ability to combine creative design with efficient softw
             <h2>Skills</h2>
             <h3>Programming</h3>
             <label htmlFor="">C++</label>
-            <div className="cpp"></div>
+            <div data-aos="fade-right" className="cpp"></div>
             <label htmlFor="">C</label>
-            <div className="c"></div>
+            <div data-aos="fade-right" className="c"></div>
             <label htmlFor="">Python</label>
-            <div className="python"></div>
+            <div data-aos="fade-right" className="python"></div>
             <label htmlFor="">JavaScript</label>
-            <div className="javascript"></div>
+            <div data-aos="fade-right" className="javascript"></div>
             <label htmlFor="">TypeScript</label>
-            <div className="typescript"></div>
+            <div data-aos="fade-right" className="typescript"></div>
             <label htmlFor="">PHP</label>
-            <div className="php"></div>
+            <div data-aos="fade-right" className="php"></div>
             <h3>Back-End</h3>
             <label htmlFor="">Node.js</label>
-            <div className="nodejs"></div>
+            <div data-aos="fade-right" className="nodejs"></div>
             <label htmlFor="">NestJS</label>
-            <div className="nestjs"></div>
+            <div data-aos="fade-right" className="nestjs"></div>
             <label htmlFor="">Express</label>
-            <div className="express"></div>
+            <div data-aos="fade-right" className="express"></div>
             <label htmlFor="">GraphQL</label>
-            <div className="graphql"></div>
+            <div data-aos="fade-right" className="graphql"></div>
             <label htmlFor="">Socket.IO</label>
-            <div className="socketio"></div>
+            <div data-aos="fade-right" className="socketio"></div>
             <label htmlFor="">Docker</label>
-            <div className="docker"></div>
+            <div data-aos="fade-right" className="docker"></div>
             <label htmlFor="">PostgreSQL</label>
-            <div className="postgresql"></div>
+            <div data-aos="fade-right" className="postgresql"></div>
             <label htmlFor="">SQL Server</label>
-            <div className="sqlserver"></div>
+            <div data-aos="fade-right" className="sqlserver"></div>
             <label htmlFor="">SQLite</label>
-            <div className="sqlite"></div>
+            <div data-aos="fade-right" className="sqlite"></div>
             <label htmlFor="">PUG</label>
-            <div className="pug"></div>
+            <div data-aos="fade-right" className="pug"></div>
             <label htmlFor="">EJS</label>
-            <div className="ejs"></div>
+            <div data-aos="fade-right" className="ejs"></div>
             <label htmlFor="">Git</label>
-            <div className="git"></div>
+            <div data-aos="fade-right" className="git"></div>
             <label htmlFor="">GitHub</label>
-            <div className="github"></div>
+            <div data-aos="fade-right" className="github"></div>
             <h3>Front-End</h3>
             <label htmlFor="">React.js</label>
-            <div className="react"></div>
+            <div data-aos="fade-right" className="react"></div>
             <label htmlFor="">Next.js</label>
-            <div className="nextjs"></div>
+            <div data-aos="fade-right" className="nextjs"></div>
             <label htmlFor="">CSS</label>
-            <div className="css"></div>
+            <div data-aos="fade-right" className="css"></div>
             <label htmlFor="">Tailwind CSS</label>
-            <div className="tailwind"></div>
+            <div data-aos="fade-right" className="tailwind"></div>
             <h3>Soft Skills</h3>
             <label htmlFor="">Teamwork</label>
-            <div className="teamwork"></div>
+            <div data-aos="fade-right" className="teamwork"></div>
             <label htmlFor="">Problem Solving</label>
-            <div className="problemsolving"></div>
+            <div data-aos="fade-right" className="problemsolving"></div>
             <label htmlFor="">Time Management</label>
-            <div className="timemanagement"></div>
+            <div data-aos="fade-right" className="timemanagement"></div>
             <label htmlFor="">Communication</label>
-            <div className="communication"></div>
+            <div data-aos="fade-right" className="communication"></div>
             <h3>Other</h3>
             <label htmlFor="">Data Analytics & Debugging</label>
-            <div className="dataanalytics"></div>
+            <div data-aos="fade-right" className="dataanalytics"></div>
             <label htmlFor="">Telegram Bots</label>
-            <div className="telegrambots"></div>
+            <div data-aos="fade-right" className="telegrambots"></div>
             <label htmlFor="">Testing</label>
-            <div className="testing"></div>
+            <div data-aos="fade-right" className="testing"></div>
         </div>    
         
 
