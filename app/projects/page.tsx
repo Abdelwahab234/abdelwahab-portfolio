@@ -30,6 +30,27 @@ export default function PJS() {
 
 						}}>
 							<div className="container">
+								<div className="front" style={{ backgroundImage: "url(/masarat/Screenshot%202026-06-09%20101556.png)" }}>
+									<div className="inner">
+										<p>Masarat Altanmiah Alhaditha</p>
+										<span>Modern Development Contracting Company</span>
+									</div>
+								</div>
+								<div className="back">
+									<div className="inner" style={{ display: "flex", flexDirection: "column" }}>
+										<div className="back-btns">
+											<a href="https://masaratgas.com" target="_blank" rel="noopener noreferrer"><button>VISIT </button></a>
+											<button onClick={() => setSelectedProject({ title: "Masarat Altanmiah Alhaditha", description: "Design and development of a modern, bilingual (Arabic/English) corporate website for Modern Development Contracting Company, a leading company in the Kingdom of Saudi Arabia specializing in integrated engineering solutions, LPG pipeline installation, and leak detection and protection systems.\n\n🎯 Target Audience:\n- Business-to-Business (B2B)\n- Government and Semi-Government Sector\n- Residential and Resort Project Owners\n- Contractors and Facilities Management\n\n💻 Technologies Used:\nNext.js 14, TypeScript, CSS Modules, Framer Motion, AOS, Lucide React.", images: ["/masarat/Screenshot%202026-06-09%20101556.png", "/masarat/Screenshot%202026-06-09%20101613.png", "/masarat/Screenshot%202026-06-09%20101646.png", "/masarat/Screenshot%202026-06-09%20101656.png", "/masarat/Screenshot%202026-06-09%20101711.png", "/masarat/Screenshot%202026-06-09%20101719.png", "/masarat/Screenshot%202026-06-09%20101731.png", "/masarat/Screenshot%202026-06-09%20101737.png", "/masarat/Screenshot%202026-06-09%20101749.png", "/masarat/Screenshot%202026-06-09%20101757.png", "/masarat/Screenshot%202026-06-09%20101811.png", "/masarat/Screenshot%202026-06-09%20101822.png", "/masarat/Screenshot%202026-06-09%20101828.png", "/masarat/Screenshot%202026-06-09%20101837.png", "/masarat/Screenshot%202026-06-09%20101844.png", "/masarat/Screenshot%202026-06-09%20101852.png", "/masarat/Screenshot%202026-06-09%20101900.png", "/masarat/Screenshot%202026-06-09%20101906.png", "/masarat/Screenshot%202026-06-09%20101913.png", "/masarat/Screenshot%202026-06-09%20101920.png", "/masarat/Screenshot%202026-06-09%20101930.png", "/masarat/Screenshot%202026-06-09%20101935.png", "/masarat/Screenshot%202026-06-09%20101942.png", "/masarat/Screenshot%202026-06-09%20101947.png", "/masarat/Screenshot%202026-06-09%20101953.png", "/masarat/Screenshot%202026-06-09%20102001.png", "/masarat/Screenshot%202026-06-09%20102012.png", "/masarat/Screenshot%202026-06-09%20102018.png", "/masarat/Screenshot%202026-06-09%20102025.png", "/masarat/Screenshot%202026-06-09%20102040.png"] })}>SHOW DETAILS</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-aos="fade-up" className="col" onTouchStart={(e) => {
+							e.currentTarget.classList.toggle('hover');
+
+						}}>
+							<div className="container">
 								<div className="front" style={{ backgroundImage: " url(https://iili.io/qJDTVLb.jpg)" }}>
 									<div className="inner">
 										<p>E-Book Library</p>
