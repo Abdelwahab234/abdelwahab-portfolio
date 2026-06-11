@@ -55,25 +55,13 @@ export const metadata: Metadata = {
     title: "Abdelwahab - Software Engineer | عبدالوهاب - بورتفوليو مهندس برمجيات",
     description: "Portfolio of Abdelwahab, Software Engineer & Web Developer. بورتفوليو مهندس البرمجيات ومطور الويب عبدالوهاب.",
     siteName: "Abdelwahab Portfolio",
-    images: [
-      {
-        url: "/logo.png",
-        width: 800,
-        height: 600,
-        alt: "Abdelwahab Portfolio Logo",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Abdelwahab - Software Engineer | عبدالوهاب - بورتفوليو مهندس برمجيات",
     description: "Portfolio of Abdelwahab, Software Engineer & Web Developer. بورتفوليو مهندس البرمجيات عبدالوهاب.",
-    images: ["/logo.png"],
   },
-  icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
-  },
+
   verification: {
     google: "OjWUm3rs9F9Uy3YLOq70dZZWaS2Xn5dpLaUw3A9UdMo",
   },
