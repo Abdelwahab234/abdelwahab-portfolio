@@ -156,7 +156,7 @@ export default function PJS() {
 								<div className="back">
 									<div className="inner">
 										<div className="back-btns">
-											<a href="https://abdelwahab234.github.io/Coffee-Landing/"><button>VISIT </button></a>
+											<a href="https://coffee-landing-iota-mocha.vercel.app/"><button>VISIT </button></a>
 											<button onClick={() => setSelectedProject({ title: "Coffee Landing", description: "Page A sleek and modern landing page design for a coffee shop offering Cold Brew and other beverages", images: ["https://iili.io/qJDvbdx.png", "/coffebrew/Screenshot%202026-06-09%20131056.png", "/coffebrew/Screenshot%202026-06-09%20131103.png", "/coffebrew/Screenshot%202026-06-09%20131112.png", "/coffebrew/Screenshot%202026-06-09%20131122.png", "/coffebrew/Screenshot%202026-06-09%20131131.png", "/coffebrew/Screenshot%202026-06-09%20131137.png"] })}>SHOW DETAILS</button>
 										</div>
 									</div>
