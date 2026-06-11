@@ -88,7 +88,7 @@ export default function PJS() {
 									<div className="inner">
 										<div className="back-btns">
 											<a href="https://github.com/Abdelwahab234/StoreMain"><button>VISIT </button></a>
-											<button onClick={() => setSelectedProject({ title: "StoreMain", description: "A product management system for small businesses and individual sellers, enabling managers to register, log in, and manage products through an intuitive interface.", images: ["https://iili.io/qJDzcG4.png", "/storemain/Screenshot%202025-11-12%20182144.png", "/storemain/Screenshot%202025-11-12%20182149.png", "/storemain/Screenshot%202025-11-12%20182157.png", "/storemain/Screenshot%202025-11-12%20182203.png", "/storemain/Screenshot%202025-11-12%20182214.png", "/storemain/Screenshot%202025-11-12%20182219.png", "/storemain/Screenshot%202025-11-12%20182232.png", "/storemain/Screenshot%202025-11-12%20182247.png"] })}>SHOW DETAILS</button>
+											<button onClick={() => setSelectedProject({ title: "StoreMain", description: "A product management system for small businesses and individual sellers, enabling managers to register, log in, and manage products through an intuitive interface.", images: ["https://iili.io/qJDzcG4.png", "/storemain/Screenshot%202025-11-12%20182157.png", "/storemain/Screenshot%202025-11-12%20182203.png", "/storemain/Screenshot%202025-11-12%20182214.png", "/storemain/Screenshot%202025-11-12%20182219.png", "/storemain/Screenshot%202025-11-12%20182232.png", "/storemain/Screenshot%202025-11-12%20182247.png"] })}>SHOW DETAILS</button>
 										</div>
 
 									</div>
