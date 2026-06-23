@@ -668,7 +668,7 @@ button {
     margin-bottom: 15px;
     font-size: 1.1rem;
     font-weight: 400;
-    color: #aaa;
+    color: #555;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -683,7 +683,7 @@ button {
 }
 
 .timeline-content p {
-    color: #ccc;
+    color: #333;
     line-height: 1.6;
 }
 

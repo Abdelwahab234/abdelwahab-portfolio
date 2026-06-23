@@ -13,6 +13,12 @@ export default function Certificates() {
       issuer: "Harvard University",
       link: "https://certificates.cs50.io/8878513d-b173-44a8-a988-8514ffddff26.pdf?size=letter",
       delay: 300
+    },
+    {
+      title: "Virtual Internship Program in Cyber Security",
+      issuer: "DecodeLabs",
+      link: "https://drive.google.com/file/d/1CZysuW8bNm04WJVbhMoG4FSqP6l6bc9Y/view?usp=drivesdk",
+      delay: 500
     }
   ];
 

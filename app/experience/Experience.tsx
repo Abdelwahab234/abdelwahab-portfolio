@@ -3,6 +3,13 @@ import React from "react";
 export default function Experience() {
   const timelineData = [
     {
+      role: "Software Engineering Intern",
+      company: "ALX Software Engineering",
+      date: "May 2023 - March 2024",
+      description: "Intensive 12-month software engineering training program focusing on C, Python, JavaScript, and systems engineering.",
+      type: "Internship"
+    },
+    {
       role: "Backend Engineer",
       company: "Compilo Startup, Egypt",
       date: "January 2025 - January 2026",
@@ -17,10 +24,10 @@ export default function Experience() {
       type: "Experience"
     },
     {
-      role: "Software Engineering Intern",
-      company: "ALX Software Engineering",
-      date: "May 2023 - March 2024",
-      description: "Intensive 12-month software engineering training program focusing on C, Python, JavaScript, and systems engineering.",
+      role: "Cyber Security Virtual Intern",
+      company: "DecodeLabs",
+      date: "May 15, 2026 - June 15, 2026",
+      description: "Completed the DecodeLabs Virtual Internship Program in Cyber Security, demonstrating hands-on problem-solving skills across real-world projects and collaborative tasks.",
       type: "Internship"
     }
   ];

@@ -30,6 +30,26 @@ export default function PJS() {
 
 						}}>
 							<div className="container">
+								<div className="front" style={{ backgroundImage: "url(/Family%20Tree%20Receivables%20Management%20Project/Screenshot%202026-06-23%20173425.png)" }}>
+									<div className="inner">
+										<p>Family Tree Benefits Management System</p>
+										<span>Saudi insurance office</span>
+									</div>
+								</div>
+								<div className="back">
+									<div className="inner" style={{ display: "flex", flexDirection: "column" }}>
+										<div className="back-btns">
+											<button onClick={() => setSelectedProject({ title: "Family Tree Benefits Management System", description: "🚀 A new phase and a new achievement! 🚀\n\nI am very happy to have you join me in the programming and development of the \"Family Tree Benefits Management System\".\nSaudi insurance office , is an integrated desktop application designed to facilitate, manage, and organize the family's finances accurately and securely. 💼✨\n\n💡 Project Idea:\nTo transform the traditional management of family members' entitlements and contributions into a sophisticated digital system that ensures transparency, accuracy, and easy access to information at any time.\n\n🌟 System Highlights:\n✅ Accurate Financial Management: Easily track contributions, dues, and payments for each family member.\n✅ Electronic Archiving System: An integrated archive for preserving and reviewing family documents and records at the click of a button.\n✅ Secure local database: To ensure maximum privacy and security for family data.\n✅ Modern and Easy User Interface (UI/UX): An interactive and eye-pleasing design ensures a seamless user experience for all age groups.\n✅ Comprehensive reports and statistics: Provide a clear view of the financial position and repayment history.\n\n🛠️ Technologies used in development (Tech Stack):\nIn building this system, I relied on the latest technologies to ensure speed and high performance:\n🔹 React.js & Vite to build an interactive and fast user interface.\n🔹 Electron.js to turn the system into a desktop application that works with high efficiency.\n🔹 Node.js & SQLite to build ergonomics and local database.\n\nI am very proud of this achievement and of turning this idea into a reality that serves and makes it easier for them to manage their affairs.", images: ["/Family%20Tree%20Receivables%20Management%20Project/Screenshot%202026-06-23%20173410.png", "/Family%20Tree%20Receivables%20Management%20Project/Screenshot%202026-06-23%20173425.png", "/Family%20Tree%20Receivables%20Management%20Project/Screenshot%202026-06-23%20173434.png", "/Family%20Tree%20Receivables%20Management%20Project/Screenshot%202026-06-23%20173446.png", "/Family%20Tree%20Receivables%20Management%20Project/Screenshot%202026-06-23%20173503.png", "/Family%20Tree%20Receivables%20Management%20Project/Screenshot%202026-06-23%20173534.png", "/Family%20Tree%20Receivables%20Management%20Project/Screenshot%202026-06-23%20173540.png", "/Family%20Tree%20Receivables%20Management%20Project/Screenshot%202026-06-23%20173548.png", "/Family%20Tree%20Receivables%20Management%20Project/Screenshot%202026-06-23%20173557.png", "/Family%20Tree%20Receivables%20Management%20Project/Screenshot%202026-06-23%20173701.png"] })}>SHOW DETAILS</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-aos="fade-up" className="col" onTouchStart={(e) => {
+							e.currentTarget.classList.toggle('hover');
+
+						}}>
+							<div className="container">
 								<div className="front" style={{ backgroundImage: "url(/masarat/Screenshot%202026-06-09%20101556.png)" }}>
 									<div className="inner">
 										<p>Masarat Altanmiah Alhaditha</p>
